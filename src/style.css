@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'MyFont';
+	src: url('./assets/fonts/my-font1.ttf'), url('./assets/fonts/my-font2.ttf');
+	font-weight: 600;
+	font-style: normal;
+}
+
+.hello {
+	color: red;
+	font-family: 'MyFont';
+	background: url('./assets/img/vue.png');
+}
